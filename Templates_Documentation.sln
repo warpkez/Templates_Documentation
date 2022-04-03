@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonModel", "PersonModel\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Code", "Test Code", "{C6AE31A8-B2B9-4DDC-9D62-62BBA90D977C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTestConsoleApp", "TestConsoleApp\CosmosTestConsoleApp.csproj", "{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
