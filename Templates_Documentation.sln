@@ -8,14 +8,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{240C1408-D320-4F68-94BD-6A32E8C1B333}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonModel", "PersonModel\PersonModel.csproj", "{0C7DA797-DF78-487F-931E-87467349C5BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Code", "Test Code", "{C6AE31A8-B2B9-4DDC-9D62-62BBA90D977C}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTestConsoleApp", "TestConsoleApp\CosmosTestConsoleApp.csproj", "{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{992B65E4-C955-4A52-AFB1-B2AF0C312335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{E2FB4641-488B-4DD1-87AF-784ADF60B77D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,10 @@ Global
 		{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2500C764-A067-4CAE-B4F6-7BB73ADB48BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FB4641-488B-4DD1-87AF-784ADF60B77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FB4641-488B-4DD1-87AF-784ADF60B77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FB4641-488B-4DD1-87AF-784ADF60B77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FB4641-488B-4DD1-87AF-784ADF60B77D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0C7DA797-DF78-487F-931E-87467349C5BC} = {6CDA12CB-A142-4AFF-BED1-9CBEB199ECDF}
 		{2500C764-A067-4CAE-B4F6-7BB73ADB48BB} = {C6AE31A8-B2B9-4DDC-9D62-62BBA90D977C}
+		{E2FB4641-488B-4DD1-87AF-784ADF60B77D} = {992B65E4-C955-4A52-AFB1-B2AF0C312335}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BDD50B4-085E-4ABD-92E5-1245BE4C0A74}

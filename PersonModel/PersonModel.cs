@@ -52,7 +52,6 @@ public class PersonContext : DbContext
             .HasNoDiscriminator()
             .HasPartitionKey(o => o.id)
             .HasKey(o => o.id);
-
     }
 
     // Using CosmosDB as the database server.
